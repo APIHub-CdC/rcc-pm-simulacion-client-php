@@ -1,6 +1,6 @@
 # rcc-pm-simulacion-client-php
 
-Esta API simula el Reporte de Crédito Consolidado de Persona Moral.
+Este API simula el Reporte de Crédito Consolidado de Persona Moral.
 
 ## Requisitos
 
@@ -108,5 +108,8 @@ Para ejecutar las pruebas unitarias:
 ```sh
 ./vendor/bin/phpunit
 ```
+
+---
+[CONDICIONES DE USO, REPRODUCCIÓN Y DISTRIBUCIÓN](https://github.com/APIHub-CdC/licencias-cdc)
 
 [1]: https://getcomposer.org/doc/00-intro.md#installation-linux-unix-macos
