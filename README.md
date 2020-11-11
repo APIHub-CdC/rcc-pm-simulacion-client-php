@@ -1,6 +1,6 @@
 # rcc-pm-simulacion-client-php
 
-Este API simula el Reporte de Crédito Consolidado de Persona Moral.
+Esta API simula el Reporte de Crédito Consolidado de Persona Moral.
 
 ## Requisitos
 
