@@ -1,6 +1,6 @@
 # rcc-pm-simulacion-client-php
 
-Esta API simula el Reporte de Crédito Consolidado de Persona Moral.
+Esta API simula el Reporte de Crédito Consolidado de Persona Moral. <br/><img src='https://github.com/APIHub-CdC/imagenes-cdc/blob/master/circulo_de_credito-apihub.png' height='37' width='160'/><br/>
 
 ## Requisitos
 
@@ -47,7 +47,7 @@ Al iniciar sesión seguir los siguientes pasos:
 
 Los siguientes datos a modificar se encuentran en **test/Api/ApiTest.php**
 
-Es importante contar con el setUp() que se encargará de inicializar la petición. Por tanto, se debe modificar la URL (**url_API**); y la API KEY (**x_api_key**), como se muestra en el siguiente fragmento de código:
+Es importante contar con el setUp() que se encargará de inicializar la petición. Por tanto, se debe modificar la URL (**the_url**); y la API KEY (**your_x_api_key**), como se muestra en el siguiente fragmento de código:
 
 ```php
 public function setUp()
@@ -108,5 +108,8 @@ Para ejecutar las pruebas unitarias:
 ```sh
 ./vendor/bin/phpunit
 ```
+
+---
+[CONDICIONES DE USO, REPRODUCCIÓN Y DISTRIBUCIÓN](https://github.com/APIHub-CdC/licencias-cdc)
 
 [1]: https://getcomposer.org/doc/00-intro.md#installation-linux-unix-macos
