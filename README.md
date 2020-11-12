@@ -1,6 +1,6 @@
 # rcc-pm-simulacion-client-php
 
-Esta API simula el Reporte de Crédito Consolidado de Persona Moral. <br/><img src='https://github.com/APIHub-CdC/imagenes-cdc/blob/master/circulo_de_credito-apihub.png' height='37' width='160'/></p><br/>
+Esta API simula el Reporte de Crédito Consolidado de Persona Moral. <br/><img src='https://github.com/APIHub-CdC/imagenes-cdc/blob/master/circulo_de_credito-apihub.png' height='37' width='160'/><br/>
 
 ## Requisitos
 
