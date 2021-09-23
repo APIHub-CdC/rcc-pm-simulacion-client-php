@@ -118,7 +118,7 @@ class PersonaDomicilio implements ModelInterface, ArrayAccess
         if ($this->container['direccion'] === null) {
             $invalidProperties[] = "'direccion' can't be null";
         }
-        if ((mb_strlen($this->container['direccion']) > 40)) {
+        if ((mb_strlen($this->container['direccion']) > 85)) {
             $invalidProperties[] = "invalid value for 'direccion', the character length must be smaller than or equal to 40.";
         }
         if ((mb_strlen($this->container['direccion']) < 2)) {
@@ -187,8 +187,8 @@ class PersonaDomicilio implements ModelInterface, ArrayAccess
     
     public function setDireccion($direccion)
     {
-        if ((mb_strlen($direccion) > 40)) {
-            throw new \InvalidArgumentException('invalid length for $direccion when calling PersonaDomicilio., must be smaller than or equal to 40.');
+        if ((mb_strlen($direccion) > 85)) {
+            throw new \InvalidArgumentException('invalid length for $direccion when calling PersonaDomicilio., must be smaller than or equal to 85.');
         }
         if ((mb_strlen($direccion) < 2)) {
             throw new \InvalidArgumentException('invalid length for $direccion when calling PersonaDomicilio., must be bigger than or equal to 2.');
