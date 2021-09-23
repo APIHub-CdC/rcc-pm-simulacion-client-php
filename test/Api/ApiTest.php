@@ -34,13 +34,13 @@ class ApiTest extends \PHPUnit_Framework_TestCase
             $persona = new Persona();
             $domicilio = new PersonaDomicilio(); 
             $catalogoEstados = new CatalogoEstados(); 
-            $catalogoPais = new CatalogoPais();            
+            $catalogoPais = new CatalogoPais();     
 
             $domicilio->setDireccion("AV. PASEO DE LA REFORMA 01");
             $domicilio->setColoniaPoblacion("GUERRERO");
             $domicilio->setDelegacionMunicipio("CUAUHTEMOC");
             $domicilio->setCiudad("CIUDAD DE MÉXICO");
-            $domicilio->setEstado($catalogoEstados::DF);
+            $domicilio->setEstado($catalogoEstados::CDMX);
             $domicilio->setCP("68370");
             $domicilio->setPais($catalogoPais::MX);
 
