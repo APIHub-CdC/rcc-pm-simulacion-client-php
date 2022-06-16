@@ -82,10 +82,7 @@ class ClavePrevencionesRespuesta implements ModelInterface, ArrayAccess
     
     public function __construct(array $data = null)
     {
-        $this->container['nombre_otorgante'] = isset($data['nombre_otorgante']) ? $data['nombre_otorgante'] : null;
-        $this->container['fecha_reporte'] = isset($data['fecha_reporte']) ? $data['fecha_reporte'] : null;
-        $this->container['numero_contrato'] = isset($data['numero_contrato']) ? $data['numero_contrato'] : null;
-        $this->container['clave_prevencion'] = isset($data['clave_prevencion']) ? $data['clave_prevencion'] : null;
+
     }
     
     public function listInvalidProperties()
